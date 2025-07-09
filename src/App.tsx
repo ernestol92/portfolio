@@ -6,7 +6,6 @@ import Welcome from "./Pages/Welcome";
 import AboutMe from "./Pages/AboutMe";
 import Portfolio from "./Pages/Portfolio";
 import Contact from "./Pages/Contact";
-import RefTest from "./Component/RefTest";
 import { useTranslation } from "react-i18next";
 
 const App = () => {
@@ -19,7 +18,6 @@ const App = () => {
         <Route path="/aboutme" element={<AboutMe/>}></Route>
         <Route path="/portfolio" element={<Portfolio/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>
-        <Route path="/reftest" element={<RefTest/>}></Route>
       </Route>
     </Routes>
   )
