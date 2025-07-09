@@ -1,0 +1,40 @@
+{
+  "navbar": {
+    "welcome": "WELCOME",
+    "aboutMe": "ABOUT ME",
+    "portfolio": "PORTFOLIO",
+    "contact": "CONTACT"
+  },
+  "welcomePage": {
+    "intro": "HI, I'M ERNESTO LINARES, A FULLSTACK DEVELOPER STUDENT WHO ENJOYS FRONTEND DEVELOPMENT, CURRENTLY LEARNING THE BACKEND SIDE USING .NET TECHNOLOGIES. I AM CURRENTLY OPEN FOR INTERNSHIP OPPORTUNITIES.",
+    "typo": "HI, I'M ERNESTO LINARES, A FULLSTACK DEVELOPRE STU",
+    "aboutMeButton": "About me"
+    
+  },
+  "aboutPage": {
+    "introductionTitle": "INTRODUCTION",
+    "introductionText": "Hi, I'm Ernesto Linares, a 33-year-old web development student. My wife and I usually live in Borås, Sweden, but we're currently based in sunny Alagoas, Brazil.\n\nI'm currently studying at EC Utbildning in Gothenburg, Sweden — a remote program focused on fullstack development. Programming is a complete career shift for me, and it's been a very rewarding change so far. I’ve always been drawn to problem-solving and creative work, and programming brings those together in a great way.",
+    "techToolsTitle": "TECH TOOLS",
+    "traitsTitle": "TRAITS",
+    "traitsText": "I like to think strategically and come up with creative solutions — especially when things get complex. I get excited about new ideas and figuring out how things can work better.\n\nSometimes I rush to finish the big picture — but I've learned the value of slowing down, staying focused, and following through on the details. I’m confident, rarely shaken by setbacks, and enjoy taking initiative and moving things forward.",
+    "portfolioButton": "Portfolio"
+  },
+  "portfolioPage": {
+    "ventixeTitle": "Ventixe",
+    "ventixeDescription": "This project is a Minimal Viable Product (MVP) for an event booking system. The frontend was built using React, CSS, and Vanilla JavaScript, while the backend is developed in C# using a microservices architecture.\n\nCommunication between services is handled via RESTful APIs. The entire project is under version control with Git, with microservices deployed on Azure Web App and the frontend hosted via Azure Static Web App.\n\nThe application uses SQL LocalDBs created through a code-first approach with Entity Framework, and includes user authentication and authorization handled by ASP.NET Identity.",
+    "alphaTitle": "Alpha",
+    "alphaDescription": "The goal of this project was to create a system inspired by an ERP platform, where users can manage projects, team members, and related tasks. The application is fully backend-rendered using ASP.NET MVC, with a structured layered architecture.\n\nIt includes a repository layer and a business logic layer, where interfaces and base classes are used to separate concerns and promote maintainability. This is an ongoing project that I plan to continue developing as I deepen my understanding of ASP.NET MVC and clean architecture principles.",
+    "portfolioTitle": "Portfolio",
+    "portfolioDescription": "This website is my personal portfolio, fully designed and built from scratch to showcase my projects and skills. It was developed using React, TypeScript, and Vite, styled with Bootstrap and custom CSS.\n\nThe design process started with wireframing in Figma, followed by responsive implementation and component structuring. This site also includes UI animations, routing via React Router, and accessibility considerations. It reflects my interest in frontend development and my evolving attention to design, usability, and performance.",
+    "visitButton": "Visit"
+  },
+  "contactPage": {
+    "thanksText": "Thanks for showing interest, would you have any further questions, then feel free to reach out to me on either of these platforms:",
+    "contactFormTitle": "Contact form",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "Email Address",
+    "messagePlaceholder": "Message",
+    "submitButton": "SUBMIT",
+    "successMessage": "Thanks! Your message has been sent."
+  }
+}

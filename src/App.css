@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-style{
+    background-color: #0D6EFD;
+    padding: 1rem 2rem 1rem 2rem; /*media query up the padding in tablet-desktop to ca 6rem*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    color: #FFFFFF;
+    font-family: "space grotesk", sans-serif;
+
+    a{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+}
+.navbar-style button{
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-ul{
+    display: flex;
+    flex-direction: column;
+
+    list-style: none;
+    padding: 1rem;
+    margin: 0;
+    gap: 1rem;
+    background-color: #20C997;
+}
+
+.navbar-li{
+    color: #FFF;
+}
+
+.accent-color{
+    color: #20C997;
+}
+
+.accent-color-bg{
+    background-color: #20C997;
+}
+
+.footer{
+    background-color: black;
+    color: #FFF;
+    font-family: "space grotesk";
+}
+
+.language-btns{
+    border: none;
+    color: #FFF;
+    background-color: black;
+}
+
+.welcome-bg{
+    background: linear-gradient(#0D6EFD, #20C997);
+}
+
+.other-bg{
+    background: linear-gradient(#0D6EFD, #6C757D);
+}
+
+.welcome-text{
+    font-size: clamp(1.25rem, 2vw + 1rem, 2.3rem);
+}
+
+.navbar-right-group{
+    display: flex;
+    gap: 8rem;
+}
+
+.space-grotesk{
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.manrope{
+    font-family: "Manrope", sans-serif;
+}
+
+.profile-svg{
+    width: clamp(200px, 30vw, 350px);
+    height: auto;
+    border-radius: 50%;
+    /* filter: grayscale(100%); */
+    filter: hue-rotate(200deg) saturate(1.2);
+    box-shadow: 0px 4px 10px 0px rgb(50,50,50);
+
+}
+
+.btn-custom{
+    background-color: #20C997;
+    color: #FFF;
+    font-size: clamp(.5rem, 2vw + .5rem, 1.5rem);
+    box-shadow: 0px 4px 10px 0px rgb(50, 50, 50);
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem 2rem .5rem 2rem;
+}
+.btn-custom:hover{
+        background-color: #28b68b;
+        transition: 300ms;
+    }
+    .btn-custom:active{
+        background-color: rgb(53, 165, 132);
+        transition: 300ms;
+}
+
+.btn-custom-small{
+    background-color: #20C997;
+    color: #FFF;
+    font-size: clamp(.5rem, 2vw + .5rem, 1.5rem);
+    box-shadow: 0px 4px 10px 0px rgb(50, 50, 50);
+    border: none;
+    border-radius: .5rem;
+    padding: .2rem 2rem .2rem 2rem;
+}
+.btn-custom-small:hover{
+        background-color: #26bd8f;
+        transition: 300ms;
+    }
+.btn-custom-small:active{
+        background-color: rgb(53, 165, 132);
+        transition: 300ms;
+}
+
+.display-none{
+    display: none;
+}
+
+.portfolio-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    gap: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+#navbar-tablet{
+    display: none;
+}
+
+@media (min-width: 576px){
+    #navbar-mobile{
+    display: none;
+    }
+    #navbar-tablet{
+        display: block;
+    }
+
+}
+
+@media (min-width: 992px) {
+        .portfolio-grid{
+            grid-template-columns: repeat(3, minmax(300px, 550px));
+            gap: 0rem;
+        }
+        
+        .navbar-style{
+            display: none;
+        }
+    }
+
+.custom-card{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: 75%;
+    max-width: 350px;
+    background-color: #FFF;
+    box-shadow: 0px 4px 10px 0px rgb(50, 50, 50);
+    border-radius: .5rem;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.box-shadow{
+    box-shadow: 0px 4px 10px 0px rgb(50, 50, 50);
+}
+
+.custom-card-header{
+    background-color: #20C997;
+    color: #FFFFFF;
+    text-align: center;
+    padding: .5rem;
+    font-size: 1.5rem;
+    
+}
+
+.custom-card-img{
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.success-div{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeIn 0.3s ease-in-out;
+    padding: 1.5rem;
+}
+
+.success-icon{
+    margin: 0 1rem 0 1rem;
+    height: 40px;
+    width: 40px;
+    align-self: center;
+}
+.custom-card-description{
+    font-family: "Manrope", sans-serif;
+    padding: 2rem;
+    margin: 0;
+    max-height: 350px;
+    overflow-y: auto;
+
+}
+
+
+.custom-card-description::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px; /* adjust height for fade strength */
+  background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.7)); /* light fade */
+  pointer-events: none; /* lets user still scroll */
+}

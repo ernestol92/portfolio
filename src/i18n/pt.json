@@ -1,0 +1,39 @@
+{
+  "navbar": {
+    "welcome": "BEM-VINDO",
+    "aboutMe": "SOBRE MIM",
+    "portfolio": "PORTFÓLIO",
+    "contact": "CONTATO"
+  },
+  "welcomePage": {
+    "intro": "OLÁ, EU SOU ERNESTO LINARES, UM ESTUDANTE DE DESENVOLVIMENTO FULLSTACK QUE GOSTA DE FRONTEND E ATUALMENTE ESTÁ APRENDENDO BACKEND COM TECNOLOGIAS .NET. NO MOMENTO ESTOU DISPONIVEL PARA ESTAGÍO.",
+    "typo": "OLÁ, EU SOU ERNESTO LINARES, UM ESTUDANTE DE DESNVVEOL",
+    "aboutMeButton": "Sobre mim"
+  },
+  "aboutPage": {
+    "introductionTitle": "INTRODUÇÃO",
+    "introductionText": "Olá, eu sou Ernesto Linares, um estudante de desenvolvimento web de 33 anos. Minha esposa e eu normalmente moramos em Borås, Suécia, mas atualmente estamos no ensolarado estado de Alagoas, Brasil.\n\nAtualmente estou estudando na EC Utbildning em Gotemburgo, Suécia — um programa remoto focado em desenvolvimento fullstack. Programação é uma mudança completa de carreira para mim, e tem sido uma mudança muito gratificante até agora. Sempre fui atraído por resolução de problemas e trabalho criativo, e a programação une essas duas coisas de forma excelente.",
+    "techToolsTitle": "FERRAMENTAS TÉCNICAS",
+    "traitsTitle": "CARACTERÍSTICAS",
+    "traitsText": "Gosto de pensar estrategicamente e encontrar soluções criativas — especialmente quando os desafios são complexos. Fico empolgado com novas ideias e com a busca de maneiras de melhorar as coisas.\n\nÀs vezes me apresso para cumprir logo o panorama geral — mas aprendi o valor de desacelerar, manter o foco e cuidar dos detalhes. Sou confiante, raramente me abalo com contratempos e gosto de tomar iniciativa e fazer as coisas avançarem.",
+    "portfolioButton": "Portfólio"
+  },
+  "portfolioPage": {
+    "ventixeTitle": "Ventixe",
+    "ventixeDescription": "Este projeto é um MVP (Produto Mínimo Viável) para um sistema de reservas de eventos. O frontend foi construído com React, CSS e JavaScript puro, enquanto o backend foi desenvolvido em C# utilizando arquitetura de microsserviços.\n\nA comunicação entre os serviços é feita via APIs RESTful. O projeto está sob controle de versão com Git, com microsserviços implantados no Azure Web App e o frontend hospedado via Azure Static Web App.\n\nA aplicação usa SQL LocalDBs criadas com abordagem code-first usando o Entity Framework, e inclui autenticação e autorização feitas com ASP.NET Identity.",
+    "alphaTitle": "Alpha",
+    "alphaDescription": "O objetivo deste projeto foi criar um sistema inspirado em uma plataforma ERP, onde usuários possam gerenciar projetos, membros da equipe e tarefas relacionadas. A aplicação é totalmente renderizada no backend usando ASP.NET MVC, com uma arquitetura em camadas estruturada.\n\nInclui uma camada de repositório e uma camada de lógica de negócios, onde interfaces e classes base são usadas para separar responsabilidades e promover a manutenção. Este é um projeto em andamento que pretendo continuar desenvolvendo à medida que aprofundo meu conhecimento em ASP.NET MVC e nos princípios de arquitetura limpa.",
+    "portfolioTitle": "Portfólio",
+    "portfolioDescription": "Este site é meu portfólio pessoal, totalmente desenhado e construído do zero para mostrar meus projetos e habilidades. Foi desenvolvido com React, TypeScript e Vite, com estilização feita com Bootstrap e CSS personalizado.\n\nO design começou com wireframes no Figma, seguido por implementação responsiva e estruturação de componentes. O site também inclui animações de UI, roteamento com React Router e considerações de acessibilidade. Ele reflete meu interesse por desenvolvimento frontend e minha atenção crescente ao design, usabilidade e desempenho.",
+    "visitButton": "Visitar"
+  },
+  "contactPage": {
+    "thanksText": "Obrigado pelo interesse! Caso tenha mais dúvidas, fique à vontade para entrar em contato comigo por qualquer uma destas plataformas:",
+    "contactFormTitle": "Formulário de Contato",
+    "namePlaceholder": "Nome",
+    "emailPlaceholder": "Endereço de Email",
+    "messagePlaceholder": "Mensagem",
+    "submitButton": "ENVIAR",
+    "successMessage": "Obrigado! Sua mensagem foi enviada."
+  }
+}
