@@ -18,7 +18,7 @@ const AboutMe = () => {
         <ul className='manrope text-center mx-auto p-1 lh-lg' style={{ listStylePosition: 'inside', width: 'fit-content' }}>
           <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React.</li>
           <li><strong>Backend:</strong> ASP.NET MVC, MySQL, SQL Server, C#.</li>
-          <li><strong>Architecture:</strong> Layered architecture (UI, BLL, DAL).</li>
+          <li><strong>Architecture:</strong> Layered architecture (UI, BLL, DAL), Microservices.</li>
           <li><strong>Tools & IDEs:</strong> VSCode, Visual Studio 2022, Git, Github.</li>
         </ul>
       </div>

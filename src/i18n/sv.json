@@ -12,7 +12,7 @@
   },
   "aboutPage": {
     "introductionTitle": "INTRODUKTION",
-    "introductionText": "Hej, jag heter Ernesto Linares, en 33-årig webbutvecklingsstudent. Min fru och jag bor vanligtvis i Borås, Sverige, men vi är för närvarande bosatta i soliga Alagoas, Brasilien.\n\nJag studerar just nu på EC Utbildning i Göteborg — ett distansprogram med fokus på fullstackutveckling. Programmering är ett helt nytt karriärval för mig, och det har varit en väldigt givande förändring hittills. Jag har alltid dragits till problemlösning och kreativt arbete, och programmering kombinerar dessa på ett fantastiskt sätt.",
+    "introductionText": "Hej, jag heter Ernesto Linares, en 33-årig webbutvecklingsstudent. Min fru och jag bor vanligtvis i Borås, Sverige, men vi är för tillfället bosatta i soliga Alagoas, Brasilien.\n\nJag studerar just nu på EC Utbildning i Göteborg — ett distansprogram med fokus på fullstackutveckling. Programmering är ett helt nytt karriärval för mig, och det har varit en väldigt givande förändring hittills. Jag har alltid dragits till problemlösning och kreativt arbete, och programmering kombinerar dessa på ett fantastiskt sätt. Till hösten (start 17nov) sätter våra praktikperioder igång och jag söker därför efter en praktikplats, som till viss del kan matcha mina kunskaper som är listade nedan.",
     "techToolsTitle": "TEKNIKER",
     "traitsTitle": "EGENSKAPER",
     "traitsText": "Jag gillar att tänka strategiskt och hitta kreativa lösningar — särskilt när saker och ting blir komplexa. Jag blir entusiastisk över nya idéer och hur man kan förbättra saker.\n\nIbland kan jag skynda mig för mycket för att nå slutmålet — men jag har lärt mig vikten av att sakta ner, och fokusera på detaljerna. Jag är självsäker, låter mig sällan rubbas av motgångar och gillar att ta initiativ och driva saker framåt.",
@@ -34,6 +34,7 @@
     "emailPlaceholder": "E-postadress",
     "messagePlaceholder": "Meddelande",
     "submitButton": "SKICKA",
-    "successMessage": "Tack! Ditt meddelande har skickats."
+    "successMessage": "Tack! Ditt meddelande har skickats.",
+    "contactButton": "Kontakt"
   }
 }

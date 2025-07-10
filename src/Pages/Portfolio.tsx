@@ -43,8 +43,9 @@ const {t} = useTranslation();
             <button className='btn-custom-small space-grotesk m-4'>{t("portfolioPage.visitButton")}</button>
           </Link>
         </div>
+          <Link className='contact-btn' to="/contact"><button className='btn-custom space-grotesk mt-5'>{t("contactPage.contactButton")}</button></Link>
       </div>
-
+      
     </div>
     
   )

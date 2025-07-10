@@ -13,7 +13,7 @@
   },
   "aboutPage": {
     "introductionTitle": "INTRODUCTION",
-    "introductionText": "Hi, I'm Ernesto Linares, a 33-year-old web development student. My wife and I usually live in Borås, Sweden, but we're currently based in sunny Alagoas, Brazil.\n\nI'm currently studying at EC Utbildning in Gothenburg, Sweden — a remote program focused on fullstack development. Programming is a complete career shift for me, and it's been a very rewarding change so far. I’ve always been drawn to problem-solving and creative work, and programming brings those together in a great way.",
+    "introductionText": "Hi, I'm Ernesto Linares, a 33-year-old web development student. My wife and I usually live in Borås, Sweden, but we're currently based in sunny Alagoas, Brazil.\n\nI'm currently studying at EC Utbildning in Gothenburg, Sweden — a remote program focused on fullstack development. Programming is a complete career shift for me, and it's been a very rewarding change so far. I’ve always been drawn to problem-solving and creative work, and programming brings those together in a great way. This fall (starting November 17), our internship period begins, and I’m therefore looking for a placement that, to some extent, matches the skills I’ve listed below.",
     "techToolsTitle": "TECH TOOLS",
     "traitsTitle": "TRAITS",
     "traitsText": "I like to think strategically and come up with creative solutions — especially when things get complex. I get excited about new ideas and figuring out how things can work better.\n\nSometimes I rush to finish the big picture — but I've learned the value of slowing down, staying focused, and following through on the details. I’m confident, rarely shaken by setbacks, and enjoy taking initiative and moving things forward.",
@@ -35,6 +35,7 @@
     "emailPlaceholder": "Email Address",
     "messagePlaceholder": "Message",
     "submitButton": "SUBMIT",
-    "successMessage": "Thanks! Your message has been sent."
+    "successMessage": "Thanks! Your message has been sent.",
+    "contactButton": "Contact"
   }
 }

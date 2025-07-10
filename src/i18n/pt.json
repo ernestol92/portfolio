@@ -6,13 +6,13 @@
     "contact": "CONTATO"
   },
   "welcomePage": {
-    "intro": "OLÁ, EU SOU ERNESTO LINARES, UM ESTUDANTE DE DESENVOLVIMENTO FULLSTACK QUE GOSTA DE FRONTEND E ATUALMENTE ESTÁ APRENDENDO BACKEND COM TECNOLOGIAS .NET. NO MOMENTO ESTOU DISPONIVEL PARA ESTAGÍO.",
-    "typo": "OLÁ, EU SOU ERNESTO LINARES, UM ESTUDANTE DE DESNVVEOL",
+    "intro": "OLÁ, EU SOU ERNESTO LINARES, ESTUDANTE DE DESENVOLVIMENTO FULLSTACK. CURTO A CRIATIVIDADE DO FRONTEND E OS DESAFIOS DO BACKEND COM .NET. ESTOU DISPONÍVEL PARA ESTÁGIO.",
+    "typo": "OLÁ, EU SOU ERNESTO LINARES, ESTUDANTE DE DESNVVEOL",
     "aboutMeButton": "Sobre mim"
   },
   "aboutPage": {
     "introductionTitle": "INTRODUÇÃO",
-    "introductionText": "Olá, eu sou Ernesto Linares, um estudante de desenvolvimento web de 33 anos. Minha esposa e eu normalmente moramos em Borås, Suécia, mas atualmente estamos no ensolarado estado de Alagoas, Brasil.\n\nAtualmente estou estudando na EC Utbildning em Gotemburgo, Suécia — um programa remoto focado em desenvolvimento fullstack. Programação é uma mudança completa de carreira para mim, e tem sido uma mudança muito gratificante até agora. Sempre fui atraído por resolução de problemas e trabalho criativo, e a programação une essas duas coisas de forma excelente.",
+    "introductionText": "Olá, eu sou Ernesto Linares, um estudante de desenvolvimento web de 33 anos. Minha esposa e eu somos de Borås, Suécia, mas atualmente estamos no ensolarado estado de Alagoas, Brasil.\n\nAtualmente estou estudando na faculdade EC Utbildning em Gotemburgo, Suécia — um programa remoto focado em desenvolvimento fullstack. Programação é uma mudança completa de carreira para mim, e tem sido uma mudança muito gratificante até agora. Sempre fui atraído por resolução de problemas e trabalho criativo, e a programação une essas duas coisas de forma excelente. Com início em 17 de novembro, começa o nosso período de estágio, e por isso estou em busca de uma vaga que, de certa forma, corresponda às habilidades que listei abaixo.",
     "techToolsTitle": "FERRAMENTAS TÉCNICAS",
     "traitsTitle": "CARACTERÍSTICAS",
     "traitsText": "Gosto de pensar estrategicamente e encontrar soluções criativas — especialmente quando os desafios são complexos. Fico empolgado com novas ideias e com a busca de maneiras de melhorar as coisas.\n\nÀs vezes me apresso para cumprir logo o panorama geral — mas aprendi o valor de desacelerar, manter o foco e cuidar dos detalhes. Sou confiante, raramente me abalo com contratempos e gosto de tomar iniciativa e fazer as coisas avançarem.",
@@ -34,6 +34,7 @@
     "emailPlaceholder": "Endereço de Email",
     "messagePlaceholder": "Mensagem",
     "submitButton": "ENVIAR",
-    "successMessage": "Obrigado! Sua mensagem foi enviada."
+    "successMessage": "Obrigado! Sua mensagem foi enviada.",
+    "contactButton": "Contato"
   }
 }
