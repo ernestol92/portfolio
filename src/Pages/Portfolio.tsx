@@ -5,7 +5,7 @@ const Portfolio = () => {
 const {t} = useTranslation();
 
   return (
-    <div className='max-width h-100'>
+    <div className='max-width'>
       <div className='portfolio-grid py-5 h-100'>
         
         

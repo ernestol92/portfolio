@@ -10,7 +10,7 @@ const PortfolioLayout = () => {
         <nav>
           <Navbar/>
         </nav>
-        <main className=' flex-fill'>
+        <main className='content flex-fill'>
           <Outlet/>
         </main>
         <footer>

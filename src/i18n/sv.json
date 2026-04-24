@@ -6,8 +6,8 @@
     "contact": "KONTAKT"
   },
   "welcomePage": {
-    "intro": "HEJ, JAG HETER ERNESTO LINARES, EN FULLSTACK-UTVECKLARSTUDENT SOM GILLAR FRONTEND-UTVECKLING OCH FÖR NÄRVARANDE LÄR MIG BACKEND I .NET-MILJÖN. JUST NU SÖKER JAG EFTER EN PRAKTIKPLATS.",
-    "typo": "HEJ, JAG HETER ERNESTO LINARES, EN FULLSTACK-UTVEKCL;AR",
+    "intro": "Hej, jag heter Ernesto Linares, en fullstack-utvecklare med ett starkt intresse för backendutveckling med .NET-teknologier. Jag närmar mig slutet av mina studier och söker just nu en roll där jag kan fortsätta utvecklas och bidra som utvecklare. Här finner du ett urval av projekt av varierande storlek, mitt CV samt en sektion om vem jag är.",
+    "typo": "Hej, jag heter Ernesto Linares, en fullstack-utvekcl;ar",
     "aboutMeButton": "Om mig"
   },
   "aboutPage": {

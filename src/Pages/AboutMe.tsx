@@ -32,7 +32,7 @@ const AboutMe = () => {
         <p className='manrope p-1 lh-lg'>{t("aboutPage.traitsText")}</p>
       </div>
 
-      <Link to="/portfolio"><button className='btn-custom space-grotesk'>{t("aboutPage.portfolioButton")}</button></Link>
+      <Link to="/portfolio"><button className='btn-custom space-grotesk mb-5'>{t("aboutPage.portfolioButton")}</button></Link>
 
     </div>
 

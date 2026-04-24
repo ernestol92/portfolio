@@ -9,9 +9,21 @@
 .portfolio-wrapper{
     background: linear-gradient(#0D6EFD, #20C997);
     height: 100vh;
-    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
+.content{
+    flex: 1;
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
 .max-width{
     max-width: 1200px;
     margin: 0 auto;
@@ -219,6 +231,7 @@
 }
 
 .custom-card-img{
+    max-height: 150px;
     width: 100%;
     margin: 0 auto 0 auto;
 }

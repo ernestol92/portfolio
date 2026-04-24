@@ -12,7 +12,7 @@ const Contact = () => {
 
         <p className='w-75 text-center text-white space-grotesk my-5'>{t("contactPage.thanksText")}</p>
         <a className='text-white space-grotesk text-decoration-none' href="mailto:ernestol92@hotmail.com"><img src="Icons/email.png" alt="" /> Ernestol92@hotmail.com</a>
-        <a className='text-white space-grotesk text-decoration-none' href='https://wa.me/46767119022' ><img src="Icons/whatsapp.png" alt="" /> +55 (82) 99660-6790 <span className=" px-4 d-block">+46 076-711 90 22</span></a>
+        <a className='text-white space-grotesk text-decoration-none' href='https://wa.me/46767119022' ><img src="Icons/whatsapp.png" alt="" /> +55 (82) 99660-6790 <span className=" px-4 d-block">+46 76-39 39 310</span></a>
         <a className='text-white space-grotesk text-decoration-none' href="https://www.linkedin.com/in/ernesto-linares-64a506325/"><img src="Icons/linkedin.png" alt="" /> LinkedIn</a>
         <a className='text-white space-grotesk text-decoration-none' href="https://www.instagram.com/linares_ernesto/"><img src="Icons/insta.png" alt="" /> linares_ernesto</a>
         
@@ -27,7 +27,7 @@ const Contact = () => {
             <input className='form-control box-shadow' type='email' name='email' id='email' placeholder={t("contactPage.emailPlaceholder")}/>
           </div>
           <textarea className='form-control box-shadow' style={{height: "250px"}} name="textarea" id="textarea" placeholder={t("contactPage.messagePlaceholder")}></textarea>
-          <button className='space-grotesk btn-custom-small' type='submit'>{t("contactPage.submitButton")}</button>
+          <button className='space-grotesk btn-custom-small mb-5' type='submit'>{t("contactPage.submitButton")}</button>
         </form>
       </div>
       <div id="success-div" className="display-none success-div box-shadow accent-color-bg w-auto h-auto text-center rounded-3">

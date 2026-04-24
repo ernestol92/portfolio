@@ -61,7 +61,7 @@ const Welcome = () => {
 
   return (
     <div className="welcome-text space-grotesk fw-light lh-lg h-100 text-center align-content-center p-5 text-white max-width">
-      <span className="d-block mb-5">{text}</span>
+      <span className="d-block mb-3">{text}</span>
       <Link id="linkToAboutme" className="display-none" to="/aboutme">
         <button className="btn-custom mt-5 space-grotesk">{btnText}</button>
       </Link>
