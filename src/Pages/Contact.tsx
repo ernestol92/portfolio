@@ -8,7 +8,7 @@ const Contact = () => {
     }
 
   return (
-    <div className='px-4 position-relative other-bg h-100 d-flex flex-column align-items-center gap-3'>
+    <div className='max-width px-4 position-relative h-100 d-flex flex-column align-items-center gap-3'>
 
         <p className='w-75 text-center text-white space-grotesk my-5'>{t("contactPage.thanksText")}</p>
         <a className='text-white space-grotesk text-decoration-none' href="mailto:ernestol92@hotmail.com"><img src="Icons/email.png" alt="" /> Ernestol92@hotmail.com</a>

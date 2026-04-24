@@ -5,8 +5,10 @@ const Portfolio = () => {
 const {t} = useTranslation();
 
   return (
-    <div className='h-100 other-bg'>
+    <div className='max-width h-100'>
       <div className='portfolio-grid py-5 h-100'>
+        
+        
         <div className='custom-card'>
           <div className='custom-card-header space-grotesk'>{t("portfolioPage.ventixeTitle")}</div>
           <img className='custom-card-img' src="./Icons/Ventixe.png" alt="" />
@@ -20,17 +22,18 @@ const {t} = useTranslation();
           </a>
         </div>
 
+        
+        
         <div className='custom-card'>
           <div className='custom-card-header space-grotesk'>{t("portfolioPage.alphaTitle")}</div>
             <img className='custom-card-img' src="./Icons/ALPHA.png" alt="" />
             <div className='position-relative'>
               <p className='custom-card-description'>{t("portfolioPage.alphaDescription")}
             </p>
-
-        </div>
-          <a className='mx-auto' href='https://github.com/ernestol92/ASP.NET.MVC'>
-            <button className='btn-custom-small space-grotesk m-4'>{t("portfolioPage.visitButton")}</button>
-          </a>
+            </div>
+            <a className='mx-auto' href='https://github.com/ernestol92/ASP.NET.MVC'>
+              <button className='btn-custom-small space-grotesk m-4'>{t("portfolioPage.visitButton")}</button>
+            </a>
         </div>
 
         <div className='custom-card'>
@@ -43,7 +46,34 @@ const {t} = useTranslation();
             <button className='btn-custom-small space-grotesk m-4'>{t("portfolioPage.visitButton")}</button>
           </Link>
         </div>
-          <Link className='contact-btn' to="/contact"><button className='btn-custom space-grotesk mt-5'>{t("contactPage.contactButton")}</button></Link>
+
+        <div className='custom-card'>
+          <div className='custom-card-header space-grotesk'>{t("portfolioPage.gymCoachTitle")}</div>
+          <img className='custom-card-img' src="./Icons/GymCoach.png" alt="" />
+          <div className='position-relative'>
+            <p className='custom-card-description'>{t("portfolioPage.gymCoachDescription")}</p>
+          </div>
+          <a className='mx-auto' href='https://ernestol92.github.io/GymCoach/'>
+              <button className='btn-custom-small space-grotesk m-4'>{t("portfolioPage.visitButton")}</button>
+            </a>
+        </div>
+
+        <div className='custom-card'>
+          <div className='custom-card-header space-grotesk'>{t("portfolioPage.workerServiceTitle")}</div>
+          <img className='custom-card-img' src="./Icons/PrinterSimulator.png" alt="" />
+          <div className='position-relative'>
+            <p className='custom-card-description'>{t("portfolioPage.workerService")}</p>
+          </div>
+          <a className='mx-auto' href='https://ernestol92.github.io/GymCoach/'>
+              <button className='btn-custom-small space-grotesk m-4'>{t("portfolioPage.visitButton")}</button>
+            </a>
+        </div>
+
+        
+          <div>
+              <Link className='contact-btn' to="/contact"><button className='btn-custom space-grotesk mt-5'>{t("contactPage.contactButton")}</button></Link>
+          </div>
+
       </div>
       
     </div>

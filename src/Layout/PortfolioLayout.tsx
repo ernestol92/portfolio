@@ -5,16 +5,18 @@ import Footer from '../Component/Footer'
 
 const PortfolioLayout = () => {
   return (
-    <div className='d-flex flex-column vh-100'>
-      <nav>
-        <Navbar/>
-      </nav>
-      <main className=' flex-fill'>
-        <Outlet/>
-      </main>
-      <footer>
-        <Footer/>
-      </footer>
+    <div className='portfolio-wrapper'>
+      <div className='d-flex flex-column vh-100 '>
+        <nav>
+          <Navbar/>
+        </nav>
+        <main className=' flex-fill'>
+          <Outlet/>
+        </main>
+        <footer>
+          <Footer/>
+        </footer>
+      </div>
     </div>
   )
 }
