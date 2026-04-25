@@ -31,7 +31,7 @@ const AboutMe = () => {
         <h2 className='space-grotesk'>{t("aboutPage.traitsTitle")}</h2>
         <p className='manrope p-1 lh-lg'>{t("aboutPage.traitsText")}</p>
       </div>
-
+      <a className='cv-btn' href={`${import.meta.env.BASE_URL}Cv/ErnestoCv.pdf`} target='_blank' rel='norefferer'>{t("aboutPage.cvButton")}</a>
       <Link to="/portfolio"><button className='btn-custom space-grotesk mb-5'>{t("aboutPage.portfolioButton")}</button></Link>
 
     </div>
