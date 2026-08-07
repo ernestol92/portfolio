@@ -5,7 +5,7 @@ const AboutMe = () => {
   const {t} = useTranslation();
   return (
     <div className='max-width h-100 d-flex pt-5 pb-5 fi flex-column align-items-center justify-content-between '>
-      <img className='mb-4 profile-svg' src="./Icons/portrait.svg" alt="portrait of ernesto" />
+      <img className='mb-4 profile-svg' src="./Icons/Ernesto.jpg" alt="portrait of ernesto" />
       <div className='w-50 pt-4 d-flex flex-column text-center text-white'>
         <h2 className='space-grotesk'>{t("aboutPage.introductionTitle")}</h2>
         <p className='manrope p-1 lh-lg'>{t("aboutPage.introductionText")}
@@ -31,7 +31,7 @@ const AboutMe = () => {
         <h2 className='space-grotesk'>{t("aboutPage.traitsTitle")}</h2>
         <p className='manrope p-1 lh-lg'>{t("aboutPage.traitsText")}</p>
       </div>
-      <a className='cv-btn' href={`${import.meta.env.BASE_URL}Cv/ErnestoCv.pdf`} target='_blank' rel='norefferer'>{t("aboutPage.cvButton")}</a>
+      <a className='cv-btn' href={`${import.meta.env.BASE_URL}Cv/ErnestoCVB.pdf`} target='_blank' rel='norefferer'>{t("aboutPage.cvButton")}</a>
       <Link to="/portfolio"><button className='btn-custom space-grotesk mb-5'>{t("aboutPage.portfolioButton")}</button></Link>
 
     </div>

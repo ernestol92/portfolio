@@ -7,7 +7,7 @@
 }
 
 .portfolio-wrapper{
-    background: linear-gradient(#0D6EFD, #20C997);
+    background: linear-gradient(#b3d2ff, #589bff);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -37,6 +37,7 @@
     gap: 1rem;
     color: #FFFFFF;
     font-family: "space grotesk", sans-serif;
+    border-bottom: 1px solid #d1d1d1;
 
     a{
         text-decoration: none;
@@ -112,9 +113,6 @@
 .profile-svg{
     width: clamp(200px, 30vw, 350px);
     height: auto;
-    border-radius: 50%;
-    /* filter: grayscale(100%); */
-    filter: hue-rotate(200deg) saturate(1.2);
     box-shadow: 0px 4px 10px 0px rgb(50,50,50);
 
 }
