@@ -28,11 +28,11 @@ const Portfoliov2 = () => {
           <p className="project-bread">
             {t("portfolioPage.rehabAppDescription")}
           </p>
-          <a className="mx-auto" href="https://ernestol92.github.io/GymCoach/">
+          {/* <a className="mx-auto" href="https://ernestol92.github.io/GymCoach/">
             <button className="btn-custom-small space-grotesk m-4">
               {t("portfolioPage.visitButton")}
             </button>
-          </a>
+          </a> */}
         </div>
 
         <div className="project-img-container">
@@ -64,7 +64,7 @@ const Portfoliov2 = () => {
           <p className="project-bread">
             {t("portfolioPage.portfolioDescription")}
           </p>
-          <a className="mx-auto" href="https://ernestol92.github.io/GymCoach/">
+          <a className="mx-auto" href="www.ernestolinares.site">
             <button className="btn-custom-small space-grotesk m-4">
               {t("portfolioPage.visitButton")}
             </button>
@@ -82,11 +82,11 @@ const Portfoliov2 = () => {
             {t("portfolioPage.workerServiceTitle")}
           </h2>
           <p className="project-bread">{t("portfolioPage.workerService")}</p>
-          <a className="mx-auto" href="https://ernestol92.github.io/GymCoach/">
+          {/* <a className="mx-auto" href="">
             <button className="btn-custom-small space-grotesk m-4">
               {t("portfolioPage.visitButton")}
             </button>
-          </a>
+          </a> */}
         </div>
 
         <div className="project-img-container">
@@ -110,11 +110,11 @@ const Portfoliov2 = () => {
             bredda mina kunskaper inom utveckling och samtidigt fördjupa mig i
             C# genom ett område utanför traditionell webbutveckling.
           </p>
-          <a className="mx-auto" href="https://ernestol92.github.io/GymCoach/">
+          {/* <a className="mx-auto" href="">
             <button className="btn-custom-small space-grotesk m-4">
               {t("portfolioPage.visitButton")}
             </button>
-          </a>
+          </a> */}
         </div>
 
         <div className="project-img-container">
@@ -135,11 +135,11 @@ const Portfoliov2 = () => {
             Projektet ger mig samtidigt möjlighet att fördjupa mina kunskaper
             inom GraphQL, MongoDB, Next.js och modern applikationsarkitektur.
           </p>
-          <a className="mx-auto" href="https://ernestol92.github.io/GymCoach/">
+          {/* <a className="mx-auto" href="">
             <button className="btn-custom-small space-grotesk m-4">
               {t("portfolioPage.visitButton")}
             </button>
-          </a>
+          </a> */}
         </div>
 
         <div className="project-img-container">
